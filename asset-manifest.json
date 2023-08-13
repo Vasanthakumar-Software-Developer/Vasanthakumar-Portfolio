@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vasanthakumar-Portfolio/static/css/main.11bfa8fd.css",
-    "main.js": "/Vasanthakumar-Portfolio/static/js/main.e422f085.js",
+    "main.css": "/Vasanthakumar-Portfolio/static/css/main.5763bbbe.css",
+    "main.js": "/Vasanthakumar-Portfolio/static/js/main.765105ff.js",
     "static/js/787.6f8076df.chunk.js": "/Vasanthakumar-Portfolio/static/js/787.6f8076df.chunk.js",
     "static/media/hom1-removebg.png": "/Vasanthakumar-Portfolio/static/media/hom1-removebg.6bfcf30518c2066f41b1.png",
     "static/media/lap.jpg": "/Vasanthakumar-Portfolio/static/media/lap.84437258534c0cde5bc4.jpg",
@@ -11,12 +11,12 @@
     "static/media/Screenshot (150).png": "/Vasanthakumar-Portfolio/static/media/Screenshot (150).d2c0c8cb2a88ebcd75e7.png",
     "static/media/Screenshot (37).png": "/Vasanthakumar-Portfolio/static/media/Screenshot (37).acc665cd318558d60281.png",
     "index.html": "/Vasanthakumar-Portfolio/index.html",
-    "main.11bfa8fd.css.map": "/Vasanthakumar-Portfolio/static/css/main.11bfa8fd.css.map",
-    "main.e422f085.js.map": "/Vasanthakumar-Portfolio/static/js/main.e422f085.js.map",
+    "main.5763bbbe.css.map": "/Vasanthakumar-Portfolio/static/css/main.5763bbbe.css.map",
+    "main.765105ff.js.map": "/Vasanthakumar-Portfolio/static/js/main.765105ff.js.map",
     "787.6f8076df.chunk.js.map": "/Vasanthakumar-Portfolio/static/js/787.6f8076df.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11bfa8fd.css",
-    "static/js/main.e422f085.js"
+    "static/css/main.5763bbbe.css",
+    "static/js/main.765105ff.js"
   ]
 }
