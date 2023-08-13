@@ -1,38 +1,662 @@
-.App {
-  text-align: center;
+.Nav{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(244, 170, 170);
+  padding:20px;
+ display: flex;
+ justify-content: space-between;
+ position: fixed;
+  
+}
+.Nav .Nav-button{
+  display: flex;
+  justify-content: end;
+}
+.Nav .Nav-img:hover{
+ background-color: aliceblue;
+  
+}
+.Nav .Nav-img{
+  border: 4px solid black;
+  width: 120px;
+  height: 40px;
+  
+  
+}
+.Nav .Nav-img h1{
+  font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(23, 0, 0);
+  
+}
+.Nav a{
+  font-weight: bold;
+  margin-top: 13px;
+  color: rgb(126, 0, 34);
+  margin-right: 30px;
+}
+.Nav a:hover{
+  color: black;
+}
+.Nav button:hover{
+  padding: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 4px;
+  color:black;
+  background-color: aliceblue;
+}
+.Home{
+  display: flex;
+  width:100%;
+  height: 700px;
+  background-color: rgb(244, 170, 170);
+}
+.Home .Name-box{
+  display: flex;
+  width: 100%;
+  height: 600px;
+
+  
+}
+.Home .Name-box .txt:hover{
+  border: 2px solid goldenrod;
+}
+.Home .Name-box .txt{
+  display: flex;
+  margin-top: 180px;
+  margin-left: 160px;
+  width: 400px;
+  height: max-content;
+  background-color: rgb(54, 12, 12);
+  padding:30px;
+  border-radius: 20px;
+}
+.Home .Name-box .txt-img{
+  width: 100px;
+  height: 100px;
+  margin-top: 240px;
+  background-image: url('./Photo/lap.jpg');
+  background-size: cover ;
+}
+.Home .Name-box h1{
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline;
+}
+.Home .Name-box h2{
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#rol1{
+    color: rgb(255, 255, 255);
+}
+#btn{
+  background-color: rgb(159, 255, 255);
+  font-size: 25px;
+  width: 200px;
+  margin-top: 20px;
+  border-radius: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+}
+#rol{
+  color: rgb(0, 153, 255);
+}
+#hi{
+  color: rgb(207, 207, 207);
+}
+#nam{
+  color: rgb(255, 55, 0);
+}
+.Home .Home-img{
+  width: 100%;
+  height: 600px;
+  background-image:url('./Photo/hom1-removebg.png') ;
+  background-size: cover;
+}
+.About{
+  width:100%;
+  height: 700px;
+  background-color: blue;
+}
+.Education{
+  
+  width:100%;
+  height: 700px;
+  background-color: rgb(244, 170, 170);
+}
+#Edu{
+  visibility: hidden;
+}
+.Pro{
+   width: 100%;
+   height: 10px;
+   visibility: hidden;
+}
+.Education .Edu-hd{
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#BE{
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(54, 12, 12);
+}
+#BE3{
+  padding: 10px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: left;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#BE2{
+  margin-left: 70px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#BE1{
+  margin-left: 30px;
+  padding: 8px;
+  display: flex;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(54, 12, 12);
+}
+.Education .hd{
+  width: 90%;
+  height: 70px;
+  margin-top: 50px;
+  background-color: rgb(244, 170, 170);
+}
+.Education .BE:hover{
+  border: 3px solid rgb(54, 12, 12);;
+}
+.Education .HSE:hover{
+  border: 3px solid rgb(54, 12, 12);;
+}
+.Education .SSLC:hover{
+  border: 3px solid rgb(54, 12, 12);;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Education .BE{
+  color: rgb(54, 12, 12);
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 110px;
+  margin-top: 30px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(54, 12, 12);;
+}
+.Education .HSE{
+  border: 0.5px solid rgb(54, 12, 12);;
+
+  color: rgb(54, 12, 12);;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 90px;
+  margin-top: 30px;
+  background-color: rgb(249, 196, 196);
+}
+.Education .SSLC{
+  border: 0.5px solid rgb(54, 12, 12);;
+
+  color: rgb(54, 12, 12);;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 90px;
+  margin-top: 30px;
+  background-color: rgb(249, 196, 196);
+}
+.Programming{
+  width:100%;
+  height: 700px;
+  background-color: rgb(244, 170, 170);
+}
+.Programming .Pro-hd{
+  margin-top: 60px;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Programming .Pro-h1{
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Programming .Pro-h2{
+  margin-top: 30px;
+  border-radius: 8px;
+  width: 270px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Programming .tch{
+  display: flex;
+  justify-content: space-around;
+
+}
+#card{
+  
+  margin-top: 30px;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px  solid rgb(54, 12, 12);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+  
+}
+#card:hover{
+  box-shadow: 12px 12px rgb(54, 12, 12);;
+}
+.Internship{
+     width:100%;
+     height: 700px;
+     background-color:rgb(244, 170, 170);
+}
+.Internship .contnt{
+  display: flex;
+  justify-content: space-around;
+}
+.Internship .contnt .Intern{
+  width: 400px;
+  height: 400px;
+  margin-top: 15px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(54, 12, 12);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+
+}
+.Internship .contnt .Intern .Int-img{
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-image: url('./Photo/Screenshot\ \(150\).png');
+}
+.Internship .contnt .Intern .Int-txt{
+  color: rgb(46, 14, 14);
+  width: 100%;
+  height: 85px;
+  text-align: left;
+  
+  
+}
+.Internship .contnt .certify .Cer-img{
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-image: url('./Photo/Programming\ In\ Java.jpg');
+}
+.Internship .contnt .certify .Cer-txt{
+  color: rgb(46, 14, 14);
+  width: 100%;
+  height: 85px;
+  text-align: left;
+  
+  
+}
+.Internship .contnt .Intern button{
+
+  padding: 7px;
+  background-color:rgb(46, 14, 14);
+  color: white;
+  width: 100px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.Internship .contnt .certify button{
+
+  padding: 7px;
+  background-color:rgb(46, 14, 14);
+  color: white;
+  width: 100px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.Internship .contnt .certify{
+  width: 400px;
+  height: 400px;
+  margin-top: 15px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(54, 12, 12);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+}
+.Internship .Int-hd{
+  margin-top: 45px;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Internship .Int{
+  visibility: hidden;
+  margin-top: 60px;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Internship .Intern:hover{
+  box-shadow: 12px 12px rgb(54, 12, 12);;
+
+}
+.Internship .certify:hover{
+  box-shadow: 12px 12px rgb(54, 12, 12);;
+
+}
+.Project .contnt .Projct-1:hover{
+  box-shadow: 12px 12px rgb(54, 12, 12);;
+
+}
+.Project .contnt .Projct-2:hover{
+  box-shadow: 12px 12px rgb(54, 12, 12);;
+
+}
+.Project .contnt .Projct-1{
+  width: 550px;
+  height: 400px;
+  margin-top: 15px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(255, 255, 255);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+
+}
+.Project .contnt .Projct-2{
+  width: 550px;
+  height: 400px;
+  margin-top: 15px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(54, 12, 12);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+}
+.Project .Int{
+  visibility: hidden;
+  margin-top: 60px;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Project{
+  width:100%;
+   height: 700px;
+   background-color: rgb(244, 170, 170);
+}
+.Project .Pro-hd{
+  margin-top: 45px;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Project .contnt .Pro1-hd{
+  margin-top: 45px;
+  border-radius: 8px;
+  width: 250px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Project .contnt{
+  display: flex;
+  justify-content: space-around;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Project .contnt .Projct-1 .Pro1-img{
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-image: url('./Photo/Screenshot\ \(152\).png');
 }
+.Project .contnt .Projct-1 .Pro1-txt{
+  color: rgb(46, 14, 14);
+  width: 100%;
+  height: 85px;
+  text-align: left;
+}
+.Project .contnt .Projct-2 .Pro2-img{
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-image: url('./Photo/Untitled\ design\ \(11\).png');
+}
+.Project .contnt .Projct-2 .Pro2-txt{
+  color: rgb(46, 14, 14);
+  width: 100%;
+  height: 85px;
+  text-align: left;
+  
+  
+}
+.Project .contnt .Projct-1 button{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 7px;
+  background-color:rgb(46, 14, 14);
+  color: white;
+  width: 100px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.Project .contnt .Projct-2 button{
+
+  padding: 7px;
+  background-color:rgb(46, 14, 14);
+  color: white;
+  width: 100px;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.About{
+  width: 100%;
+  height: 700px;
+  background-color:rgb(244, 170, 170);
+}
+.About contnt profilhd{
+  width: 250px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+.About .dub{
+  visibility: hidden;
+  
+}
+.About .abohd{
+  margin-top: 80px;
+  border-radius: 5px;
+  width: 250px;
+  height: 50px;
+  color: white;
+  background-color: rgb(54, 12, 12);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.About contnt contact{
+  width: 350px;
+  height: 400px;
+  margin-top: 15px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(255, 255, 255);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+}
+.About contnt contact form{
+  width: 250px;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
+.About contnt contact form button{
+  background-color:rgb(54, 12, 12);
+  color:#f0f8ff;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.About contnt contact form input{
+    width: 250px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color: rgb(248, 216, 216);
+    border-bottom: 2px solid rgb(54, 12, 12);
+    outline: none;
+}
+.About contnt contact form textarea{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 250px;
+  height: 60px;
+  padding: 5px;
+  background-color: rgb(246, 211, 211);
+  border-bottom: 2px solid rgb(54, 12, 12);
+  outline: none;
+}
+.About contnt profile{
+  width: 350px;
+  height: 400px;
+  margin-top: 15px;
+  background-color: rgb(249, 196, 196);
+  border: 0.5px solid rgb(255, 255, 255);
+  box-shadow: 8px 8px rgb(54, 12, 12);
+}
+.About contnt profile .poto{
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(54, 12, 12);
+  box-shadow:0px 5px 5px 2px;
+  border-radius: 100px;
+  margin-top: 15px;
+  background-image: url('./Photo/Screenshot\ \(37\).png');
+  background-size: cover;
+}
+#prodata{
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.About contnt contacthd{
+  width: 250px;
+  height: 48px;
+  background-color: rgb(54, 12, 12);
+  color: azure;
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+.About contnt{
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  display: flex;
+  justify-content: space-around;
+}
+.Footer{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+.Footer div{
+  color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px;
+  
+}
+body::-webkit-scrollbar{
+  width: 13px;
+  background-color:rgb(244, 170, 170);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(54, 12, 12);
+    border-radius: 5px;
+}
+.Footer div a{
+    margin-left: 10px;
+    color: antiquewhite;
+}
+.Footer div a:hover{
+  color:rgb(242, 0, 0);
+}
+.Footer div h1{
+  margin-top: 50px;
 }
